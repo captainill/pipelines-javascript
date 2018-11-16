@@ -36,7 +36,3 @@ steps:
     includeRootFolder: false
 
 - task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
-    artifactName: 'drop'
-    publishLocation: 'Container'
